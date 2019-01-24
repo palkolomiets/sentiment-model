@@ -74,4 +74,4 @@ def feedback():
     return render_template('thanks.html')
 
 if __name__ == '__main__':
-    application.run()
+    application.run(port=8080)
